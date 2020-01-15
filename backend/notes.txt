@@ -1,0 +1,5 @@
+//Metodos Http
+
+//Query Params: request.query (filter, find,pagination)
+//Routes Params: request.params (Indetificar um recurso na  )
+//Body: request.bodyu(criação, alteração)
