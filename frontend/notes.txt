@@ -1,0 +1,4 @@
+3 principios básicos
+- Componente : Bloco isolado de html, css, js...Que não interfere no funcionamento do restante do código
+- Estado : Informação mantida pelo componente (imutabilidade)
+- Propriedade: Informação que o componente filho herda do do comp pai 
