@@ -16,6 +16,24 @@ aside form{
     margin-top: 30px;
 }
 
+/* Range: inputblocks que possuam inpublocks antes dele (exclue o primeiro ) */
+aside form .inputblock + .inputblock{
+    margin-top: 20px;
+}
+
+aside form .inputgroup{
+    margin-top: 20px;
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+/* Sempre que estivermos dentro de um input group, o input block tera magin 0 */
+aside form .inputgroup .inputblock{
+    margin-top: 0;
+}
 aside form .inputblock label{
     color: #acacac;
     font-size: 14px;
@@ -29,5 +47,22 @@ aside form .inputblock input{
     color: #666666;
     border: 0;
     border-bottom: 1px solid #eee;
+}
 
+aside form button[type = submit]{
+    width: 100%;
+    border : 0;
+    margin-top: 30px;
+    background-color: #7d40e7;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+aside form button[type = submit]:hover{
+    background-color: #6931ca;
 }
